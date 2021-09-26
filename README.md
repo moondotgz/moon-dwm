@@ -24,6 +24,7 @@ This is my build of dwm
 * picom
 * git
 * make
+* [Mononoki Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-mononoki/)
 # Installation
 You must have autostart.sh from this repo in ~/.dwm (create it)
 
