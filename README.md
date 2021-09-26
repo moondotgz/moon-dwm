@@ -14,7 +14,6 @@ This is my build of dwm
 * fibonacci
 * pertag
 * uselessgap
-* systray
 # Requirements
 * st
 * brave
@@ -33,9 +32,9 @@ chmod +x autostart.sh
 ```
 Then, put dwm.desktop in /usr/share/xsessions
 
-Now you can install zowws-dwm by:
+Now you can install dwm-zowws by:
 ```
-git clone https://github.com/zowws/zowws-dwm.git
-cd zowws-dwm/dwm
+git clone https://github.com/zowws/dwm-zowws.git
+cd dwm-zowws
 sudo make install
 ```
