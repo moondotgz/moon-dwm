@@ -5,21 +5,21 @@ The dynamic window manager of pain and suffering
 
 This is my build of dwm
 # Patches
-* activetagindicator
-* actualfullscreen
-* alpha 
-* alwayscenter
-* autostart
-* centretitle
-* cyclelayouts
-* fibonacci
-* pertag
-* uselessgap
+* [activetagindicatorbar](https://dwm.suckless.org/patches/activetagindicatorbar/)
+* [actualfullscreen](https://dwm.suckless.org/patches/actualfullscreen/)
+* [alpha](https://dwm.suckless.org/patches/alpha/)
+* [alwayscenter](https://dwm.suckless.org/patches/alwayscenter/)
+* [autostart](https://dwm.suckless.org/patches/autostart/)
+* [centretitle](https://dwm.suckless.org/patches/centretitle/)
+* [cyclelayouts](https://dwm.suckless.org/patches/cyclelayouts/)
+* [fibonacci](https://dwm.suckless.org/patches/fibonacci/)
+* [pertag](https://dwm.suckless.org/patches/pertag/)
+* [uselessgap](https://dwm.suckless.org/patches/uselessgap/)
 # Requirements
-* st
+* st ([I use DistroTube's build](https://gitlab.com/dwt1/st-distrotube))
 * brave
-* dmenu
-* nm-applet (for internet)
+* dmenu ([I use DistroTube's build](https://gitlab.com/dwt1/dmenu-distrotube))
+* nm-applet (For internet)
 * nitrogen
 * picom
 * git
