@@ -5,6 +5,7 @@ The dynamic window manager of pain and suffering
 
 This is my build of dwm
 # Patches
+* activetagindicator
 * actualfullscreen
 * alpha 
 * alwayscenter
