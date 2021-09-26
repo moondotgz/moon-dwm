@@ -34,7 +34,7 @@ Then, put dwm.desktop in /usr/share/xsessions
 
 Now you can install dwm-zowws by:
 ```
-git clone https://github.com/zowws/dwm-zowws.git
-cd dwm-zowws
+git clone https://github.com/zowws/zowws-dwm.git
+cd zowws-dwm/dwm
 sudo make install
 ```
