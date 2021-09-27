@@ -25,6 +25,7 @@ This is my build of dwm
 * git
 * make
 * [Mononoki Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-mononoki/)
+* [wmname](https://tools.suckless.org/x/wmname/)
 # Installation
 You must have autostart.sh from this repo in ~/.dwm (create it)
 
