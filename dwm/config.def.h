@@ -74,7 +74,6 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL }; /* I use DistroTube's build */
 static const char *browser[]  = { "brave", NULL };
 static const char *dmenu2[]  = { "dmenu_run", NULL }; /* I use DistroTube's build */
-/* static const char *osu[]  = { "sh ~/lutris_scripts/osu.sh", NULL }; */ /* You will need to have osu! on lutris, then generate a game shell script with the name of osu.sh and put it in ~/lutris_scripts */
 static const char *mail[]  = { "thunderbird", NULL }; /* Thunderbird */
 
 static Key keys[] = {
@@ -83,7 +82,6 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = browser } },
 	{ MODKEY|ShiftMask,             XK_t,      spawn,          {.v = mail } },
-	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = osu } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
