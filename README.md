@@ -16,7 +16,7 @@ This is my build of dwm
 * [pertag](https://dwm.suckless.org/patches/pertag/)
 * [uselessgap](https://dwm.suckless.org/patches/uselessgap/)
 # Requirements
-* st ([I use DistroTube's build](https://gitlab.com/dwt1/st-distrotube))
+* kitty
 * brave
 * dmenu ([I use DistroTube's build](https://gitlab.com/dwt1/dmenu-distrotube))
 * nm-applet (For internet)
