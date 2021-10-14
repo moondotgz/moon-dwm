@@ -30,7 +30,7 @@ static const unsigned int alphas[][3]      = {
 /* static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }; */
 /* static const char *tags[] = { "", "", "", "", "", "", "", "", "" }; */
 /* static const char *tags[] = { "", "", "", "", "",  "", "", "", "", "" }; */
-static const char *tags[] = { "", "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", "", "" };
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
@@ -75,6 +75,7 @@ static const char *termcmd[]  = { "kitty", NULL };
 static const char *browser[]  = { "brave", NULL };
 static const char *dmenu2[]  = { "dmenu_run", NULL }; /* I use DistroTube's build */
 static const char *mail[]  = { "thunderbird", NULL }; /* Thunderbird */
+/* static const char *logout[] = { "arcolinux-logout", NULL };  */ /* Only uncomment this if you are using ArcoLinux https://arcolinux.com/ */
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
@@ -82,6 +83,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = browser } },
 	{ MODKEY|ShiftMask,             XK_t,      spawn,          {.v = mail } },
+     /*	{ MODKEY,                       XK_x,      spawn,          {.v = logout } } */ /* Uncomment this if you use ArcoLinux */
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
