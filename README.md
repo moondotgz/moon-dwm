@@ -27,6 +27,7 @@ This is my build of dwm
 * [Mononoki Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-mononoki/)
 * [wmname](https://tools.suckless.org/x/wmname/)
 * thunderbird
+* [My build of dwmblocks](https://github.com/zowws/dwmblocks-zowws)
 # Installation
 You must have autostart.sh from this repo in ~/.dwm (create it)
 
