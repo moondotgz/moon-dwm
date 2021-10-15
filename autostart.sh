@@ -2,5 +2,5 @@
 picom &
 nitrogen --restore &
 nm-applet &
-xsetroot -name "$USER" &
-wmname LG3D
+dwmblocks &
+wmname LG3D &
