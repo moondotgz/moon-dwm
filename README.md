@@ -17,8 +17,8 @@ This is my build of dwm
 * [uselessgap](https://dwm.suckless.org/patches/uselessgap/)
 # Requirements
 * kitty
-* vivaldi
-* dmenu 
+* ungoogled-chromium
+* dmenu [(I use DistroTube's build)](https://gitlab.com/dwt1/dmenu-distrotube)
 * nm-applet (For internet) (On Fedora it's network-manager-applet)
 * nitrogen
 * picom
