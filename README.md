@@ -37,7 +37,7 @@ chmod +x autostart.sh
 ```
 Then, put dwm.desktop in /usr/share/xsessions
 
-Now you can install dwm-zowws by:
+Now you can install dwm by:
 ```
 git clone https://github.com/zowws/zowws-dwm.git
 cd zowws-dwm/dwm
