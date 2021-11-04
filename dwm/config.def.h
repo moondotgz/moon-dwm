@@ -81,7 +81,6 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_d,      spawn,          {.v = dmenu2 } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = browser } },
-	{ MODKEY|ShiftMask,             XK_t,      spawn,          {.v = mail } },
      /*	{ MODKEY,                       XK_x,      spawn,          {.v = logout } } */ /* Uncomment this if you use ArcoLinux */
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
