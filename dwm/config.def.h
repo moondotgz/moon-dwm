@@ -30,7 +30,7 @@ static const unsigned int alphas[][3]      = {
 /* static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }; */
 /* static const char *tags[] = { "", "", "", "", "", "", "", "", "" }; */
 /* static const char *tags[] = { "", "", "", "", "",  "", "", "", "", "" }; */
-static const char *tags[] = { "", "", "", "", "", "", "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "", "", "", "", "", "", "" };
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
@@ -74,7 +74,6 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "kitty", NULL }; 
 static const char *browser[]  = { "chromium", NULL };
 static const char *dmenu2[]  = { "dmenu_run", NULL }; /* I use DistroTube's build */
-static const char *mail[]  = { "thunderbird", NULL }; /* Thunderbird */
 /* static const char *logout[] = { "arcolinux-logout", NULL };  */ /* Only uncomment this if you are using ArcoLinux https://arcolinux.com/ */
 
 static Key keys[] = {
