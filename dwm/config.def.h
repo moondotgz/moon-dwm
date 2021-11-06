@@ -75,6 +75,7 @@ static const char *termcmd[]  = { "kitty", NULL };
 static const char *browser[]  = { "chromium", NULL };
 static const char *dmenu2[]  = { "dmenu_run", NULL }; /* I use DistroTube's build */
 static const char *editor[] = { "emacs", NULL };
+static const char *mail[] = { "thunderbird", NULL };
 /* static const char *logout[] = { "arcolinux-logout", NULL };  */ /* Only uncomment this if you are using ArcoLinux https://arcolinux.com/ */
 
 static Key keys[] = {
@@ -82,7 +83,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_d,      spawn,          {.v = dmenu2 } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY|ShiftMask,             XK_b,      spawn,          {.v = browser } },
-	{ MODKEY|ShiftMask,             XK_e,       spawn,          {.v = editor } },
+	{ MODKEY|ShiftMask,             XK_e,      spawn,          {.v = editor } },
+	{ MODKEY|ShiftMask,              XK_t,      spawn,          {.v = mail } },
      /*	{ MODKEY,                       XK_x,      spawn,          {.v = logout } } */ /* Uncomment this if you use ArcoLinux */
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
