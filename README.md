@@ -41,5 +41,6 @@ Now you can install dwm by:
 ```
 git clone https://github.com/zowws/zowws-dwm.git
 cd zowws-dwm/dwm
+make
 sudo make install
 ```
