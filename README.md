@@ -27,7 +27,7 @@ This is my build of dwm
 * [Mononoki Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-mononoki/)
 * [wmname](https://tools.suckless.org/x/wmname/)
 * thunderbird
-* [My build of dwmblocks](https://github.com/zowws/dwmblocks-zowws)
+* [My build of dwmblocks](https://github.com/moondotgz/dwmblocks-moon)
 # Installation
 You must have autostart.sh from this repo in ~/.dwm (create it)
 
@@ -39,8 +39,8 @@ Then, put dwm.desktop in /usr/share/xsessions
 
 Now you can install dwm by:
 ```
-git clone https://github.com/zowws/zowws-dwm.git
-cd zowws-dwm/dwm
+git clone https://github.com/moondotgz/moon-dwm.git
+cd moon-dwm/dwm
 make
 sudo make install
 ```
