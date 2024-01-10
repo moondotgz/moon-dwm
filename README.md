@@ -1,4 +1,4 @@
-# zowws's build of dwm 6.2
+# Moon's build of dwm 6.2
 Ah yes, the dwm window manager
 
 The dynamic window manager of pain and suffering 
